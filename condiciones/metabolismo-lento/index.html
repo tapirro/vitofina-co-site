@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Metabolismo Lento — Causas, Diagnóstico y Estrategias de Activación | Vitofina</title>
 <meta name="description" content="Metabolismo lento: causas hormonales y nutricionales, señales de alerta, estrategias de activación metabólica con ejercicio, alimentación y suplementos termogénicos.">
@@ -9,8 +10,9 @@
 <meta property="og:title" content="Metabolismo Lento — Causas, Diagnóstico y Estrategias de Activación | Vitofina">
 <meta property="og:description" content="Metabolismo lento: causas hormonales y nutricionales, señales de alerta, estrategias de activación metabólica con ejercicio, alimentación y suplementos termogénicos.">
 <meta property="og:url" content="https://www.vitofina.co/condiciones/metabolismo-lento/">
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="es_CO">
+<meta property="og:site_name" content="Vitofina">
 <meta name="robots" content="index, follow">
 <script type="application/ld+json">
 {
@@ -27,28 +29,99 @@
 </script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Georgia,'Times New Roman',serif;line-height:1.7;color:#1a1a1a;
-  max-width:48rem;margin:0 auto;padding:1.5rem}
-h1{font-size:1.8rem;margin:1.5rem 0 0.5rem}
-h2{font-size:1.4rem;margin:2rem 0 0.5rem}
-h3{font-size:1.15rem;margin:1.5rem 0 0.4rem}
-p{margin:0.6rem 0}
-ul,ol{margin:0.6rem 0 0.6rem 1.5rem}
-li{margin:0.3rem 0}
-a{color:#2563eb;text-decoration:none}
+:root{--primary:#22c55e;--primary-light:#f0fdf4;--primary-dark:#15803d;
+--slate-900:#0f172a;--slate-700:#334155;--slate-500:#64748b;--slate-200:#e2e8f0;--slate-50:#f8fafc;--white:#fff}
+html{scroll-behavior:smooth}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:var(--slate-900);line-height:1.7;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto}
+a{color:var(--primary);text-decoration:none}
 a:hover{text-decoration:underline}
-.cta{display:inline-block;margin:1rem 0;padding:0.8rem 1.5rem;background:#16a34a;
-  color:#fff;border-radius:6px;font-weight:bold;text-decoration:none}
-.cta:hover{background:#15803d;text-decoration:none}
-.disclaimer{margin-top:2rem;padding:1rem;background:#fef3c7;border-left:4px solid #f59e0b;font-size:0.9rem}
-footer{margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd;font-size:0.85rem;color:#666}
-table{border-collapse:collapse;width:100%;margin:1rem 0}
-th,td{border:1px solid #ddd;padding:0.5rem;text-align:left}
-th{background:#f3f4f6}
+.container{max-width:900px;margin:0 auto;padding:0 1.5rem}
+.nav{background:var(--white);border-bottom:1px solid var(--slate-200);padding:0.75rem 0;position:sticky;top:0;z-index:100;backdrop-filter:blur(10px)}
+.nav-inner{max-width:900px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 1.5rem}
+.nav-brand{font-weight:800;font-size:1.25rem;color:var(--primary-dark);text-decoration:none}
+.nav-links{font-size:0.9rem;display:flex;gap:1rem}
+.nav-links a{color:var(--slate-700);text-decoration:none}
+.nav-links a:hover{color:var(--primary)}
+.nav-cta{display:inline-flex;align-items:center;gap:0.5rem;padding:0.5rem 1.25rem;background:var(--primary);color:var(--white);border-radius:8px;text-decoration:none;font-weight:600;font-size:0.9rem;transition:background 0.3s,transform 0.2s}
+.nav-cta:hover{background:var(--primary-dark);transform:translateY(-1px);text-decoration:none}
+.hero{padding:4rem 1.5rem 3rem;background:linear-gradient(160deg,var(--primary-light) 0%,var(--white) 50%)}
+.hero-inner{max-width:900px;margin:0 auto;display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:center}
+.hero h1{font-size:clamp(1.8rem,4vw,2.5rem);font-weight:800;line-height:1.2;margin-bottom:1rem}
+.hero h1 span{color:var(--primary)}
+.hero-desc{font-size:1.05rem;color:var(--slate-700);margin-bottom:1.5rem;line-height:1.7}
+.hero-cta{display:inline-flex;align-items:center;gap:0.75rem;padding:0.9rem 2rem;background:var(--primary);color:var(--white);border-radius:10px;text-decoration:none;font-weight:700;font-size:1.05rem;transition:background 0.3s,transform 0.2s;box-shadow:0 4px 15px rgba(0,0,0,0.15)}
+.hero-cta:hover{background:var(--primary-dark);transform:translateY(-2px);text-decoration:none}
+.hero-rating{margin-top:1rem;font-size:0.9rem;color:var(--slate-500)}
+.hero-rating strong{color:var(--primary)}
+.hero-img img{max-width:240px;filter:drop-shadow(0 15px 30px rgba(0,0,0,0.12))}
+.content{padding:2.5rem 1.5rem}
+.content-inner{max-width:900px;margin:0 auto}
+.content-inner h2{font-size:1.5rem;margin:2rem 0 0.75rem;color:var(--slate-900)}
+.content-inner p{margin:0.5rem 0;color:var(--slate-700)}
+.content-inner ul{margin:0.5rem 0 0.5rem 1.5rem}
+.content-inner li{margin:0.3rem 0;color:var(--slate-700)}
+.reviews{padding:3rem 1.5rem;background:var(--slate-50)}
+.reviews-inner{max-width:900px;margin:0 auto}
+.reviews h2{font-size:1.5rem;text-align:center;margin-bottom:0.5rem}
+.reviews-subtitle{text-align:center;color:var(--slate-500);margin-bottom:2rem}
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.25rem}
+.review-card{padding:1.5rem;background:var(--white);border-radius:12px;border:1px solid var(--slate-200)}
+.review-stars{color:#f59e0b;font-size:1.2rem;margin-bottom:0.5rem}
+.review-card blockquote{font-size:0.95rem;color:var(--slate-700);line-height:1.6;font-style:italic;margin:0}
+.review-author{margin-top:0.75rem;font-size:0.85rem;color:var(--slate-500)}
+.review-author strong{color:var(--slate-900)}
+.faq-section{padding:3rem 1.5rem}
+.faq-inner{max-width:700px;margin:0 auto}
+.faq-section h2{font-size:1.5rem;text-align:center;margin-bottom:1.5rem}
+.faq-item{margin-bottom:0.5rem;border:1px solid var(--slate-200);border-radius:8px;overflow:hidden}
+.faq-item summary{padding:1rem 1.25rem;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+.faq-item summary::after{content:"▸";transition:transform 0.3s}
+.faq-item[open] summary::after{transform:rotate(90deg)}
+.faq-answer{padding:0 1.25rem 1rem}
+.faq-answer p{font-size:0.95rem;color:var(--slate-500);line-height:1.6}
+.cta-section{padding:3rem 1.5rem;background:var(--primary);text-align:center}
+.cta-section h2{color:var(--white);font-size:1.5rem;margin-bottom:0.75rem}
+.cta-section p{color:rgba(255,255,255,0.85);margin-bottom:1.5rem;font-size:1rem}
+.cta-btn{display:inline-flex;align-items:center;gap:0.5rem;padding:1rem 2rem;background:var(--white);color:var(--primary-dark);border-radius:10px;text-decoration:none;font-weight:700;font-size:1.05rem;transition:transform 0.2s;box-shadow:0 4px 20px rgba(0,0,0,0.15)}
+.cta-btn:hover{transform:translateY(-2px);text-decoration:none}
+.disclaimer{padding:1.5rem;background:#fffbeb;border-top:2px solid #f59e0b;font-size:0.85rem;color:var(--slate-500);text-align:center}
+.footer{padding:2rem 1.5rem;background:var(--slate-900);text-align:center}
+.footer a{color:rgba(255,255,255,0.6);text-decoration:none;margin:0 0.75rem;font-size:0.9rem}
+.footer a:hover{color:var(--white)}
+.footer p{color:rgba(255,255,255,0.4);font-size:0.8rem;margin-top:1rem}
+/* Subpages */
+.subpage{max-width:48rem;margin:0 auto;padding:2rem 1.5rem}
+.subpage h1{font-size:1.8rem;margin:1rem 0 0.5rem}
+.subpage h2{font-size:1.4rem;margin:2rem 0 0.5rem}
+.subpage h3{font-size:1.15rem;margin:1.5rem 0 0.4rem}
+.subpage p{margin:0.6rem 0;color:var(--slate-700)}
+.subpage ul,.subpage ol{margin:0.6rem 0 0.6rem 1.5rem}
+.subpage li{margin:0.3rem 0;color:var(--slate-700)}
+.subpage table{border-collapse:collapse;width:100%;margin:1rem 0}
+.subpage th,.subpage td{border:1px solid var(--slate-200);padding:0.5rem;text-align:left}
+.subpage th{background:var(--slate-50)}
+.mid-cta{display:inline-block;margin:1.5rem 0;padding:0.8rem 1.5rem;background:var(--primary);color:var(--white);border-radius:8px;font-weight:bold;text-decoration:none;transition:background 0.3s}
+.mid-cta:hover{background:var(--primary-dark);text-decoration:none}
+@media(max-width:768px){
+  .hero-inner{grid-template-columns:1fr;text-align:center}
+  .hero-img{order:-1}
+  .hero-img img{max-width:180px;margin:0 auto}
+  .nav-links{display:none}
+}
 </style>
 </head>
 <body>
-<nav style="margin-bottom:1.5rem;font-size:0.9rem"><a href="/">Inicio</a> | <a href="/ingredientes/">Ingredientes</a> | <a href="/condiciones/">Condiciones</a></nav>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-brand">Vitofina</a>
+    <div class="nav-links"><a href="/">Inicio</a> | <a href="/ingredientes/">Ingredientes</a> | <a href="/condiciones/">Condiciones</a></div>
+    <a href="https://offerstore.app/vitofina/dp/?sub1=seo&sub2=vitofina.co" class="nav-cta" rel="nofollow">Ordenar Ahora →</a>
+  </div>
+</nav>
+
+<main class="subpage">
 <h1>Metabolismo Lento — Causas, Diagnóstico y Estrategias de Activación</h1>
 <p>El metabolismo basal (tasa metabólica en reposo) representa el 60-75% del gasto calórico diario total. Cuando este desciende por debajo de lo esperado para la edad, sexo y composición corporal, se habla de metabolismo lento o hipometabolismo. Esto dificulta la pérdida de grasa incluso con déficit calórico y ejercicio regular.</p>
 <h2>Causas del metabolismo lento</h2>
@@ -65,13 +138,18 @@ th{background:#f3f4f6}
 <h2>Estrategias de activación</h2>
 <p>El abordaje más efectivo combina entrenamiento de fuerza (aumenta masa muscular), actividad física regular (aumenta NEAT), ingesta proteica adecuada (efecto térmico de los alimentos) y suplementación termogénica. El <a href="/ingredientes/te-verde-egcg/">EGCG del té verde</a> activa la termogénesis un 3-8%, mientras la <a href="/ingredientes/l-carnitina/">L-carnitina</a> optimiza la oxidación de grasas a nivel mitocondrial.</p>
 <div class="disclaimer"><strong>Importante:</strong> Un metabolismo persistentemente lento puede indicar hipotiroidismo, síndrome de Cushing u otras condiciones endocrinas. Si la fatiga y el aumento de peso son significativos pese a hábitos saludables, realizar análisis hormonal completo (TSH, T3 libre, T4 libre, cortisol). Los suplementos termogénicos complementan pero no sustituyen el diagnóstico médico.</div>
+<a href="https://offerstore.app/vitofina/dp/?sub1=seo&sub2=vitofina.co" class="mid-cta" rel="nofollow">Conocer Vitofina →</a>
+</main>
+
 <div class="disclaimer">
-<strong>Aviso:</strong> Este contenido es informativo y educativo. No constituye consejo medico.
-Consulte a un profesional de salud antes de iniciar cualquier suplementacion.
+  <strong>Aviso:</strong> Este contenido es informativo y educativo. No constituye consejo médico.
+  Consulte a un profesional de salud antes de iniciar cualquier suplementación.
 </div>
-<footer>
-<p>&copy; 2026 Vitofina</p>
-<p><a href="/">Inicio</a> | <a href="/ingredientes/">Ingredientes</a> | <a href="/condiciones/">Condiciones</a></p>
+
+<footer class="footer">
+  <div><a href="/">Inicio</a> | <a href="/ingredientes/">Ingredientes</a> | <a href="/condiciones/">Condiciones</a></div>
+  <p>&copy; 2026 Vitofina. Todos los derechos reservados.</p>
 </footer>
+
 </body>
 </html>
