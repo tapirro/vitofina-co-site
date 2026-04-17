@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vitofina.co/</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -511,6 +511,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/ansiedad-por-comer/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/astigmatismo-cuidado/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -535,7 +541,19 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/celulitis/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/conjuntivitis/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/daltonismo/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -571,6 +589,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/estrabismo-adultos/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/fatiga-visual-pantallas/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -595,14 +619,32 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/grasa-abdominal/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/higado-graso-por-sobrepeso/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/lagrimeo-excesivo/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/metabolismo-lento-por-edad/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/metabolismo-lento/</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -620,6 +662,18 @@
   </url>
   <url>
     <loc>https://vitofina.co/condiciones/moscas-volantes/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/neuropatia-optica/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojo-seco-menopausia/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -644,6 +698,30 @@
   </url>
   <url>
     <loc>https://vitofina.co/condiciones/ojos-rojos/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojos-y-diabetes/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojos-y-hipertension/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojos-y-pantallas-ninos/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/orzuelo-chalazion/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -685,6 +763,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/queratocono/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/recuperacion-cirugia-cataratas/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -697,7 +781,19 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/retencion-de-liquidos/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/retinopatia-diabetica/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/retinopatia-hipertensiva/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -715,7 +811,25 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/sobrepeso-por-estres/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/sobrepeso-postparto/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/tension-ocular/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/uveitis/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -728,6 +842,12 @@
   </url>
   <url>
     <loc>https://vitofina.co/condiciones/vision-nocturna/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/vision-y-pantallas-trabajo/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -767,53 +887,5 @@
     <lastmod>2026-04-15</lastmod>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/sobrepeso-por-estres/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/metabolismo-lento-por-edad/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/retencion-de-liquidos/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/grasa-abdominal/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/ansiedad-por-comer/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/higado-graso-por-sobrepeso/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/sobrepeso-postparto/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/celulitis/</loc>
-    <lastmod>2026-04-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>
