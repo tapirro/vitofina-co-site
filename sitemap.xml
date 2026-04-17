@@ -559,8 +559,20 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/degeneracion-macular-prevencion-temprana/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/degeneracion-macular-prevencion/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/degeneracion-macular-y-edad-co/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -601,6 +613,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/fatiga-visual-y-teletrabajo-co/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/fotofobia/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -609,6 +627,18 @@
   <url>
     <loc>https://vitofina.co/condiciones/fotosensibilidad-ocular/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/glaucoma-deteccion-temprana/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/glaucoma-silencioso-co/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -673,6 +703,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/ojo-seco-aire-acondicionado/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/ojo-seco-menopausia/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -681,6 +717,12 @@
   <url>
     <loc>https://vitofina.co/condiciones/ojo-seco-severo/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojo-seco-y-aire-acondicionado-co/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -703,6 +745,24 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/ojos-y-celular-ninos-co/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojos-y-contaminacion-bogota/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojos-y-diabetes-colombia/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/ojos-y-diabetes/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -715,8 +775,44 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/ojos-y-migranas/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojos-y-pantalla-celular-jovenes/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojos-y-pantallas-gamers-co/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/ojos-y-pantallas-ninos/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojos-y-pantallas-trabajo-remoto/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojos-y-sol-tropical-colombia/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojos-y-sol-tropical/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -753,6 +849,12 @@
   <url>
     <loc>https://vitofina.co/condiciones/pterigion/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/queratoconjuntivitis-seca-aire-acondicionado/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -841,14 +943,50 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/vision-ninos-pantallas/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/vision-nocturna/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/vision-y-aire-acondicionado-oficinas/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/vision-y-conduccion-nocturna/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/vision-y-diabetes-co/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/vision-y-pantallas-escolares-co/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/vision-y-pantallas-trabajo/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/vision-y-trabajo-nocturno-co/</loc>
+    <lastmod>2026-04-17</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
