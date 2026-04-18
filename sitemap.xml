@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://vitofina.co/opiniones/</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -422,7 +422,7 @@
   </url>
   <url>
     <loc>https://vitofina.co/ingredientes/</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -530,13 +530,19 @@
   </url>
   <url>
     <loc>https://vitofina.co/condiciones/</loc>
-    <lastmod>2026-04-16</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://vitofina.co/condiciones/ansiedad-por-comer/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/astigmatismo-adquirido/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -571,8 +577,20 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/conjuntivitis-alergica/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/conjuntivitis/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/daltonismo-funcional/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -627,6 +645,12 @@
   <url>
     <loc>https://vitofina.co/condiciones/estrabismo-adultos/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/fatiga-visual-digital/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -723,6 +747,12 @@
   <url>
     <loc>https://vitofina.co/condiciones/neuropatia-optica/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/ojo-rojo-cronico/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -859,8 +889,20 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/perdida-de-vision-nocturna/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/presbicia/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/presion-intraocular/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -933,6 +975,12 @@
   <url>
     <loc>https://vitofina.co/condiciones/retinopatia-hipertensiva/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://vitofina.co/condiciones/retinopatia/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -1027,6 +1075,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://vitofina.co/condiciones/vista-borrosa/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://vitofina.co/condiciones/vista-cansada-computadora/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -1061,59 +1115,5 @@
     <lastmod>2026-04-15</lastmod>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/fatiga-visual-digital/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/retinopatia/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/presion-intraocular/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/conjuntivitis-alergica/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/vista-borrosa/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/daltonismo-funcional/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/ojo-rojo-cronico/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/astigmatismo-adquirido/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vitofina.co/condiciones/perdida-de-vision-nocturna/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>
