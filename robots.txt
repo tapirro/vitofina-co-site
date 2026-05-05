@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vitofina.co/sitemap.xml
+Sitemap: https://vitofina.co/sitemap-priority.xml
