@@ -543,7 +543,72 @@
   <p style="font-family:Georgia,serif;font-size:1.1rem;color:#1a5632;text-align:center;margin-bottom:.8rem">
     <strong>Vitofina</strong> — Solicita información
   </p>
-  <form action="https://lead-capture.mantissa-bot.workers.dev/" method="POST" style="max-width:400px;margin:0 auto">
+  <!-- R3: Bundle pricing selector -->
+<style>
+.bundle-selector {
+  display: flex; gap: 8px; margin-bottom: 1rem; flex-wrap: wrap; justify-content: center;
+}
+.bundle-card {
+  flex: 1; min-width: 90px; max-width: 160px;
+  border: 2px solid #e2e8f0; border-radius: 12px; padding: 12px 8px;
+  text-align: center; cursor: pointer; position: relative;
+  transition: border-color 0.2s, box-shadow 0.2s; background: #fff;
+}
+.bundle-card:has(input:checked) {
+  border-color: #FF6B35; box-shadow: 0 0 0 3px rgba(255,107,53,0.15);
+}
+.bundle-card input[type="radio"] { display: none; }
+.bundle-badge {
+  position: absolute; top: -10px; left: 50%; transform: translateX(-50%);
+  background: #FF6B35; color: #fff; font-size: 0.65rem; font-weight: 700;
+  padding: 2px 8px; border-radius: 10px; white-space: nowrap;
+}
+.bundle-name { display: block; font-weight: 600; font-size: 0.9rem; color: #334155; margin-bottom: 4px; }
+.bundle-price { display: block; font-size: 1.15rem; font-weight: 800; color: #1a1a1a; }
+.bundle-anchor { display: block; font-size: 0.8rem; color: #94a3b8; }
+.bundle-unit { display: block; font-size: 0.75rem; color: #64748b; margin-top: 2px; }
+.bundle-savings { display: block; font-size: 0.7rem; color: #16a34a; font-weight: 600; margin-top: 2px; }
+.bundle-disclaimer { display: block; font-size: 0.7rem; color: #94a3b8; text-align: center; margin-bottom: 0.75rem; }
+</style>
+<div class="bundle-selector">
+  <label class="bundle-card">
+    <input type="radio" name="bundle" value="1" data-price="139900" data-unit="139900">
+    <span class="bundle-name">1 frasco</span>
+    <span class="bundle-price">$139.900</span>
+    
+  </label>
+  <label class="bundle-card recommended">
+    <input type="radio" name="bundle" value="3" data-price="279900" data-unit="93300" checked>
+    <span class="bundle-badge">Más vendido</span>
+    <span class="bundle-name">3 frascos</span>
+    <span class="bundle-price">$279.900</span>
+    <span class="bundle-unit">$93.300 c/u</span>
+    <span class="bundle-savings">Ahorras $139.800</span>
+  </label>
+  <label class="bundle-card">
+    <input type="radio" name="bundle" value="6" data-price="399900" data-unit="66650">
+    <span class="bundle-name">6 frascos</span>
+    <span class="bundle-price">$399.900</span>
+    <span class="bundle-unit">$66.650 c/u</span>
+    <span class="bundle-savings">Ahorras $439.500</span>
+  </label>
+</div>
+<small class="bundle-disclaimer">Precio referencial. Precio final confirmado por teléfono antes del envío.</small>
+<script>
+(function(){
+  document.querySelectorAll('.bundle-selector input[type=radio]').forEach(function(r){
+    r.addEventListener('change', function(){
+      var q = this.value, p = this.dataset.price, u = this.dataset.unit;
+      document.querySelectorAll('input[name=quantity]').forEach(function(h){ h.value = q; });
+      document.querySelectorAll('input[name=bundle_total_price]').forEach(function(h){ h.value = p; });
+      document.querySelectorAll('input[name=unit_price_at_purchase]').forEach(function(h){ h.value = u; });
+    });
+  });
+})();
+</script>
+
+<form action="https://lead-capture.mantissa-bot.workers.dev/" method="POST" style="max-width:400px;margin:0 auto">
+        <input type="hidden" name="quantity" value="3"><input type="hidden" name="bundle_total_price" value="279900"><input type="hidden" name="unit_price_at_purchase" value="93300">
     <input type="hidden" name="product" value="vitofina">
     <input type="hidden" name="source" value="vitofina.co">
     <input type="text" name="name" placeholder="Tu nombre" required
